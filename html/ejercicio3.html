@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo Tabla # 3</title>
+</head>
+<style>
+    .bizquierda{
+        border-left: 4px solid black ;
+    }
+    .bderecha{
+        border-right: 4px solid black;
+    }
+    .barriba{
+        border-top: 4px solid black;
+    }
+    .babajo{
+        border-bottom: 4px solid black;
+    }
+</style>
+<body>
+    <a href="../index.html">&lt-Volver</a> <br> <br> 
+    <table style="border-collapse: collapse;" border="0">
+        <tr >
+            <td class="bizquierda bderecha babajo barriba"style="text-align: center; padding-bottom: 10px; padding-top: 10px; " colspan="4">
+                General Admission Registration
+            </td>
+        </tr>
+        <tr class="bizquierda bderecha" >
+            <td >
+                <label for="" style="margin-right: 30px;">Name</label>
+            </td>
+            <td>
+                <input type="text" style="width: 90px;" placeholder="First Name">
+            </td>
+            <td>
+                <input type="text" style="width: 90px; margin-left: 10px; margin-right: 50px;" placeholder="Last Name">
+            </td>
+        
+           
+
+            <td class="bizquierda" rowspan="5">
+                <div style="margin:20px 50px 20px 50px;">
+                    Do you have dietary restrictions?
+                    <div style="margin: 10px 0px 0px 30px;">
+                        <input type="radio" name="" id="">None <br>
+                        <input type="radio" name="" id="">Vegetarian <br>
+                        <input type="radio" name="" id="">Glutten Allergy <br>
+                        <input type="radio" name="" id="">Lactose Allergy <br>
+                        <input type="radio" name="" id="">Nut Allergy <br>
+                        <input type="radio" name="" id="">Shellfish Allergy
+                    </div>
+                 </div>
+            </td>
+            
+
+        </tr>
+
+        <tr class="bizquierda bderecha">
+            <td >
+                <label for="">Email</label>
+            </td>
+            <td  colspan="2" >
+                <input type="email" style="width: 200px;" placeholder="sample@example.com">
+            </td>
+
+            
+        </tr>
+
+        <tr class="bizquierda bderecha">
+            <td>
+                <label for="">Gender</label>
+            </td>
+
+            <td>
+                <input type="radio" name="genero">
+                <label for="">Male</label>
+            </td>
+
+            <td>
+                <input type="radio" name="genero">
+                <label for="">Female</label>
+            </td>
+        </tr>
+
+        <tr class="bizquierda bderecha">
+            <td>
+                <label for="">Phone</label>
+            </td>
+            <td colspan="2">
+                <input type="text" style="width: 200px;">
+            </td>
+        </tr>
+
+
+        <tr class="bizquierda bderecha">
+            <td colspan="3">Emergency Contact</td>
+        </tr>
+
+        <tr class="bizquierda bderecha">
+            <td></td>
+            <td colspan="2">
+                <input type="text" style="width: 200px;">
+            </td>
+
+            <td class="bizquierda" rowspan="3">
+                <div style="margin:0px 50px 20px 50px;">
+                What activities will you attend?
+                    <div style="margin: 10px 0px 0px 30px;">
+                        <input type="radio" name="" id="">Awards Gala Dinner <br>
+                        <input type="radio" name="" id="">Luncheon <br>
+                        <input type="radio" name="" id="">Town Hall 
+                    </div>
+                </div>   
+            </td>
+        </tr>
+
+        <tr class="bizquierda bderecha">
+            <td colspan="3">Do you require parking?</td>
+        </tr>
+
+        <tr class="bizquierda bderecha">
+            <td>
+                
+            </td>
+
+            <td>
+                <input type="radio" name="parqueo">
+                <label for="">Yes</label>
+            </td>
+
+            <td>
+                <input type="radio" name="parqueo">
+                <label for="">No</label>
+            </td>
+        </tr>
+
+        <tr class="bizquierda bderecha">
+            <td colspan="3">What is your room preference?</td>
+            
+            <td class="bizquierda" rowspan="2">
+                <div style="margin-left: 50px; margin-top: -20px;">
+                    <label  for="">Do you want to see the list of other <br> attendees and their profiles on the <br> official event app?</label>
+                    <div style="margin-top: 15px; margin-bottom: 25px;">
+                        <input style="margin-left: 50px;" type="radio" name="app" id="">Yes
+                        <input style="margin-left: 20px;" type="radio" name="app">No
+                    </div>
+                </div>
+            </td>
+            
+        </tr>
+
+        <tr class="bizquierda bderecha babajo">
+            <td>
+                
+            </td>
+
+            <td colspan="2">
+                <div style="margin-top:20px ;margin-bottom: 50px;">
+                    <input type="radio" name="tipoDeCuarto">
+                    <label for="">Single Room</label>
+                    <br>
+                    <input type="radio" name="tipoDeCuarto">
+                    <label for="">Shared Room</label>
+                    <br>
+                    <input type="radio" name="tipoDeCuarto">
+                    <label for="">No Room Needed</label>
+                </div>
+            </td>
+
+            
+              
+            
+
+            
+        </tr>
+        
+    </table>
+</body>
+</html>

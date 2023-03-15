@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo Formulario # 1</title>
+</head>
+<style>
+    .cuadroDeTextoConBorde{
+        border-top: 2px solid black; 
+        border-left: 2px solid black;
+        border-bottom: 1px solid gainsboro;
+        border-right: 1px solid gainsboro;
+    }
+</style>
+<body>
+    <a href="../index.html">&lt-Volver</a> <br>
+    <h2 style="color: orange">Land Of Boxes Order Form</h2>
+    <form action="">
+        
+<table border="0">
+    <tr>
+        <td>
+            <label style="
+                display: block;
+                text-align: right;
+                "for="">Name:
+            </label>
+        </td>
+
+        <td>
+            <input class="cuadroDeTextoConBorde" style="width: 311px;"type="text" placeholder="Walaa Brody" pattern="^[a-zA-Z\s]+$"> 
+        </td>
+    </tr>
+
+    <tr>
+        <td>
+            <label style="
+                display: block;
+                text-align: right;"
+                 for="" >Email:
+            </label> 
+        </td>
+
+        <td>
+            <input class="cuadroDeTextoConBorde" style="width: 311px;"type="email" placeholder="w.brody@widget-sales.com" maxlength="30"> 
+        </td>
+    </tr>
+
+    <tr>
+        <td>
+            <label style="
+            display: block;
+            text-align: right;" for="">Address:</label> 
+        </td>
+
+        <td>
+            <textarea class="cuadroDeTextoConBorde" name="" id="" cols="40" rows="5" style="overflow-y: scroll; resize: none;" placeholder="162 Main Road
+Rondebosch
+Cape Town"></textarea >
+        </td>
+    </tr>
+
+    <tr>
+        <td>
+            <label style="
+            display: block;
+            text-align: right;"
+            for="">Postcode:</label>
+        </td>
+
+        <td>
+            <input  class="cuadroDeTextoConBorde" type="text" placeholder="770000" pattern="[0-9]{6,8}">
+        </td>
+    </tr>
+
+</table>
+<br>
+<br>
+
+<table border="1">
+    <!-- Titulos -->
+    <tr>
+        <td>
+            <strong><label for="">Product</label></strong>
+        </td>
+
+        <td>
+            <strong><label for="">Part Number</label></strong>
+        </td>
+
+        <td>
+            <strong><label for="">Quantity</label></strong>
+        </td>
+
+        <td>
+            <strong><label for="">Unit Price</label></strong>
+        </td>
+
+        <td>
+            <strong><label for="">SubTotal</label></strong>
+        </td>
+    </tr>
+<!-- Fila 1 -->
+    <tr>
+        <td>
+            <label for="">EconoBox</label>
+        </td>
+
+        <td>
+            <label for="">LB100</label>
+        </td>
+
+        <td>
+            <input class="cuadroDeTextoConBorde" style="width:65px;" type="number" placeholder="3" min="0" max="999">
+        </td>
+
+        <td>
+            <label for="">R5</label>
+        </td>
+
+        <td>
+            <input class="cuadroDeTextoConBorde" style="width:130px;" type="text" placeholder="R15" pattern="R[0-9]+">
+        </td>
+    </tr>
+<!-- Fila 2 -->
+    <tr>
+        <td>
+            <label for="">Standard Box</label>
+        </td>
+
+        <td>
+            <label for="">LB200</label>
+        </td>
+
+        <td>
+            <input class="cuadroDeTextoConBorde" style="width:65px;" type="number" placeholder="4" min="0" max="999">
+        </td>
+
+        <td>
+            <label for="">R10</label>
+        </td>
+
+        <td>
+            <input class="cuadroDeTextoConBorde" style="width:130px;" type="text" placeholder="R40" pattern="R[0-9]+">
+        </td>
+    </tr>
+<!-- Fila 3 -->
+    <tr>
+        <td>
+            <label for="">Premium Box</label>
+        </td>
+
+        <td>
+            <label for="">LB300</label>
+        </td>
+
+        <td>
+            <input class="cuadroDeTextoConBorde" style="width:65px;" type="number" placeholder="1" min="0" max="999">
+        </td>
+
+        <td>
+            <label for="">R15</label>
+        </td>
+
+        <td>
+            <input class="cuadroDeTextoConBorde" style="width:130px;" type="text" placeholder="R15" pattern="R[0-9]+">
+        </td>
+    </tr>
+<!-- Fila 4 -->
+    <tr>
+        <td>
+            <label for="">Deluxe Box</label>
+        </td>
+
+        <td>
+            <label for="">LB400</label>
+        </td>
+
+        <td>
+            <input class="cuadroDeTextoConBorde" style="width:65px;" type="number" placeholder="0" min="0" max="999">
+        </td>
+
+        <td>
+            <label for="">R20</label>
+        </td>
+
+        <td>
+            <input class="cuadroDeTextoConBorde" style="width:130px;" type="text" placeholder="R0" pattern="R[0-9]+">
+        </td>
+        
+    </tr>   
+
+<!-- Fila 5 -->
+    <tr>
+        <td>
+            <label for="">Super Deluxe Box</label>
+        </td>
+
+        <td>
+            <label for="">LB500</label>
+        </td>
+
+        <td>
+            <input class="cuadroDeTextoConBorde" style="width:65px;" type="number" placeholder="1" min="0" max="999">
+        </td> 
+
+        <td>
+            <label for="">R30</label>
+        </td>
+
+        <td>
+            <input class="cuadroDeTextoConBorde" style="width:130px;" type="text" placeholder="R30" pattern="R[0-9]+">
+        </td>
+        
+    </tr> 
+
+<!-- Fila 6 -->
+    <tr>
+    
+        <td colspan="5">
+            <div style="text-align: right;">
+                <label for="">Total:</label>
+                <input class="cuadroDeTextoConBorde" style="width:130px;" type="text" placeholder="R100" pattern="R[0-9]+">
+            </div>
+            
+        </td>
+        
+    </tr> 
+
+</table>
+
+<br>
+
+<h3>Credit Card Details</h3>
+    <label for="">Card Type</label>
+    <table>
+        <tr>
+            <td>
+                <input type="radio" name="cardtype">Mastercard 
+            </td>
+            <td>
+                <label for="">Card Number:</label>
+            </td>
+            <td><input class="cuadroDeTextoConBorde" type="number" placeholder="45645" ></td>
+        </tr>
+
+        <tr>
+            <td>
+                <input type="radio" name="cardtype">Visa
+            </td>
+            <td>
+                <label for="">Expiry date:</label>
+            </td>
+            <td>
+                <input class="cuadroDeTextoConBorde" style="width: 50px;" type="text" placeholder="03/90" pattern="^(0[1-9]|1[0-2])/([9][1-9])$">
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <input type="radio" name="cardtype">American Express
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <input type="radio" name="cardtype">Diners Club
+            </td>
+        </tr>
+    </table>
+    
+    <table>
+        <tr>
+            <td>
+                <strong><label for="">Delivery Address:</label></strong>
+            </td>
+            <td>
+                <textarea class="cuadroDeTextoConBorde" style="overflow-y: scroll; resize: none;" name="" id="" cols="30" rows="5"
+                placeholder="162 Main Road
+Rondebosch
+Cape Town"></textarea>
+            </td>
+        </tr>
+        
+    </table>
+    <br>
+    
+    
+    <input type="submit" value="Send order">
+    <input type="reset" value="Clear form">
+        
+    
+        
+    
+    </form>
+</body>
+</html>
